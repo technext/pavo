@@ -417,13 +417,13 @@ input[type="checkbox"] {
 .navbar {
     position: relative;
     background-color: #f1f9fc;
-    padding: 0.5rem 1rem;
+    padding: 2rem 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 0.75rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    line-height: 2rem;
     transition: all 0.2s ease;
 }
 
@@ -925,7 +925,7 @@ a.back-to-top {
     position: fixed;
     z-index: 999;
     right: 12px;
-    bottom: 12px;
+    bottom: 30px;
     display: none;
     width: 42px;
     height: 42px;
