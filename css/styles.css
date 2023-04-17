@@ -417,13 +417,13 @@ input[type="checkbox"] {
 .navbar {
     position: relative;
     background-color: #f1f9fc;
-    padding: 0.5rem 1rem;
+    padding: 2rem 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 0.75rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    line-height: 2rem;
     transition: all 0.2s ease;
 }
 
@@ -925,7 +925,7 @@ a.back-to-top {
     position: fixed;
     z-index: 999;
     right: 12px;
-    bottom: 12px;
+    bottom: 30px;
     display: none;
     width: 42px;
     height: 42px;
@@ -1217,3 +1217,50 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 /* end of min-width 1200px */
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0069d9;
+}.container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+}
+
+.address {
+	flex: 1;
+    margin-left: 1rem;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+	margin-right: 50px;
+}
+
+.form {
+	flex: 1;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+label {
+	margin-bottom: 10px;
+}
